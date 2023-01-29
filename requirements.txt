@@ -5,4 +5,4 @@ torch
 ipython
 psutil
 torchvision
-yaml
+pyyaml
