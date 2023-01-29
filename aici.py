@@ -8,12 +8,12 @@ import time
 from PIL import Image
 import torch
 
-@st.cache
-def upload_model():
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path= 'best.pt', force_reload=True)
-    return model
+# @st.cache
+# def upload_model():
+model = torch.hub.load('ultralytics/yolov5', 'custom', path= 'best.pt', force_reload=True)
+#     return model
 
-model = upload_model()
+# model = upload_model()
 
 
 
