@@ -1,4 +1,5 @@
 streamlit
+scipy
 opencv-python-headless
 numpy
 torch
@@ -9,4 +10,3 @@ pyyaml
 tqdm
 matplotlib
 seaborn
-scipy
