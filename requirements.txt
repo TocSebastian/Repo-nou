@@ -1,6 +1,7 @@
 streamlit
 scipy
-opencv-python-headless
+opencv-contrib-python
+opencv-python
 numpy
 torch
 ipython
